@@ -8,6 +8,15 @@ We want this assignment to feel like a 'week on the job.' And by that we mean, w
 
 You can download the view that you are to complete [here](https://dl.dropboxusercontent.com/u/5658310/cf-build-a-site/the-comp.psd). It is provided as a Photoshop format, if you do not have access to Photoshop, other applications like Pixelmator are able to open these layered files as well.
 
+### The fonts
+
+All the fonts used in the comp are free Google Fonts:
+
+Oswald: [http://www.google.com/fonts/specimen/Oswald](http://www.google.com/fonts/specimen/Oswald)
+Lato: [http://www.google.com/fonts/specimen/Lato](http://www.google.com/fonts/specimen/Lato)
+Merriweather: [http://www.google.com/fonts/specimen/Merriweather](http://www.google.com/fonts/specimen/Merriweather)
+Lora: [http://www.google.com/fonts/specimen/Lora](http://www.google.com/fonts/specimen/Lora)
+
 
 ## The scenario 
 
