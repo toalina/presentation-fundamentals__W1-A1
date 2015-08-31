@@ -12,10 +12,10 @@ You can download the view that you are to complete [here](https://dl.dropboxuser
 
 All the fonts used in the comp are free Google Fonts:
 
-Oswald: [http://www.google.com/fonts/specimen/Oswald](http://www.google.com/fonts/specimen/Oswald)
-Lato: [http://www.google.com/fonts/specimen/Lato](http://www.google.com/fonts/specimen/Lato)
-Merriweather: [http://www.google.com/fonts/specimen/Merriweather](http://www.google.com/fonts/specimen/Merriweather)
-Lora: [http://www.google.com/fonts/specimen/Lora](http://www.google.com/fonts/specimen/Lora)
+* Oswald: [http://www.google.com/fonts/specimen/Oswald](http://www.google.com/fonts/specimen/Oswald)
+* Lato: [http://www.google.com/fonts/specimen/Lato](http://www.google.com/fonts/specimen/Lato)
+* Merriweather: [http://www.google.com/fonts/specimen/Merriweather](http://www.google.com/fonts/specimen/Merriweather)
+* Lora: [http://www.google.com/fonts/specimen/Lora](http://www.google.com/fonts/specimen/Lora)
 
 
 ## The scenario 
