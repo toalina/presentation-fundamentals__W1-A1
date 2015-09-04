@@ -46,19 +46,22 @@ body {
 }
 .barbie-pic {
   width: 350px;
- /* z-index: 300;*/
 }
 .barbietext {
-  /*color: #C4CBB7*/;
+  color: #6e6c77;
   text-align: center;
   width: 350px;
-  left: 1.5em;
+  padding-left: 100px;
 }
 .barbietext p {
   font-family: 'Lato', sans-serif;
 }
 .box-model-header {
   font-family: 'Lora', serif;
+  font-size: 2em;
+}
+.box-model-header h3 {
+  margin-bottom: 0;
 }
 
 /*position relatives */
@@ -118,16 +121,17 @@ body {
 
 /*bullets*/
 .bullets{
-  width: 800px;
+  width: 850px;
   height: 490px;
   float: left;
-  padding-left: 20px;
+  padding-left: 50px;
 }
 .bullets-header {
   text-align: center;
   border-top: 1px solid #e0e0e0;
   border-bottom: 1px solid #e0e0e0;
   padding: 10px 0;
+  text-transform: uppercase;
 }
 .bullets h4 {
   font-family: 'Oswald', sans-serif;
@@ -141,19 +145,23 @@ body {
   display: inline;
 }
 .bullets-ul{
-  width: 800px;
+  width: 850px;
   list-style-type: none;
 }
 
 .bullets-li {
   display: inline-block;
   font-family: 'Oswald', sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   color: #e0e0e0;
   border-right: 1px solid #e0e0e0;
   width: 155px;
   text-align: justify;
 }
+/*.bullets-li img {
+  height: 270px;
+}
+*/
 
 /*beatles*/
 .beatles {
@@ -183,12 +191,6 @@ body {
   text-align: justify;
   padding: 5px;
   width: 960px;
-}
-.beatles figure {
-
-}
-.beatles img {
-
 }
 
 /*immigration*/
@@ -239,6 +241,7 @@ body {
   margin-left: 20px;
   background-color: #3a83bb;
   color: white;
+
 }
 .transformers figure {
   margin-left: 20px;
@@ -278,7 +281,6 @@ body {
 .rating progress {
   background-color: #619cc9;
 }
-
 .gray {
   color: #75a8cf;
   margin: 0;
@@ -287,7 +289,6 @@ body {
   border-top: 2px dashed black;
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
-  text-align: justify;
   font-size: 30px;
   padding-top: 10px;
 }
@@ -298,10 +299,78 @@ body {
   font-size: 10px;
 }
 
-
-
-
 /*overflow*/
 .overflow {
   clear: both;
+  margin: 0;
 }
+.overflow-article {
+/*  position: relative;
+*/}
+.overflow-title {
+  font-size: 72px;
+  font-family: 'Oswald', sans-serif;
+  transform: rotate(7deg);
+  color: #a0b4c0;
+  z-index: 1000;
+  margin: 0;
+  padding-left: 100px;
+  padding-top: 1px;
+  position: relative;
+  opacity: 0.6;
+}
+.water-pic {
+  z-index: 800;
+  margin-top: 0;
+  position: absolute;
+}
+.p1, .p2, .p3 {
+  font-family: 'Lora', serif;
+  color: #5f6d75;
+  width: 720px;
+}
+.p1 {
+  transform: rotate(2deg);
+  text-align: right;
+  position: relative;
+  z-index: 900;
+  padding-left: 300px;
+  bottom: 80px;
+}
+.p2 {
+  transform: rotate(-1deg);
+  position: relative;
+  bottom: 75px;
+  padding-left: 50px;
+}
+.p3 {
+  transform: rotate(2deg);
+  position: relative;
+  bottom: 50px;
+  padding-left: 200px;
+}
+/*footer */
+footer {
+  margin: 0 50px;
+  border-top: 1px solid #b1b1b1;
+}
+.left {
+  float: left;
+  font-family: 'Lato', sans-serif;
+  color: #b1b1b1;
+}
+.right {
+  float: right;
+  text-align: right;
+  font-family: 'Merriweather', serif;
+  color: #b1b1b1;
+}
+/*form?*/
+.form {
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 50px;
+  font-family: 'Merriweather', serif;
+}
+
+

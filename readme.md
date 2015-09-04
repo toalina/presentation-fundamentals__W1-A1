@@ -73,6 +73,8 @@ w3schools
 -font weight
 -html5 semantic elements
 -css opactity
+-css3 transform property, http://www.w3schools.com/cssref/css3_pr_transform.asp
+-border style
 Mdn
 -html <input> elements
 StackOverflow
@@ -80,7 +82,9 @@ StackOverflow
 -background size
 -how to draw a rectangle in HTML or CSS?
 -z index?
-
+-Difference between margin and padding? by r.m.
+CSS tricks
+-text rotation, https://css-tricks.com/snippets/css/text-rotation/
 
 
 
