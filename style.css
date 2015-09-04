@@ -22,7 +22,7 @@ body {
 .purple-rectangle {
   background-color: #cdc9dd;
   width: 570px;
-  height: 1000px;
+  height: 1065px;
   position: absolute;
   z-index: -1;
 }
@@ -50,18 +50,22 @@ body {
 .barbietext {
   color: #6e6c77;
   text-align: center;
-  width: 350px;
+  width: 330px;
   padding-left: 100px;
 }
 .barbietext p {
   font-family: 'Lato', sans-serif;
+  line-height: 1.5em;
+  margin-top: 10px;
 }
 .box-model-header {
   font-family: 'Lora', serif;
   font-size: 2em;
+  font-weight: 700;
 }
 .box-model-header h3 {
   margin-bottom: 0;
+  margin-top: 15px;
 }
 
 /*position relatives */
@@ -104,7 +108,7 @@ body {
   height: 490px;
   float: left;
   padding-left: 50px;
-
+  margin-left: 100px;
 }
 .afloat-h1 {
   font-family: 'Oswald', sans-serif;
@@ -115,16 +119,17 @@ body {
   text-align: right;
   font-family: 'Lato', sans-serif;
 }
-.afloat img {
-  position: relative;
+.bootpic {
+  position: absolute;
+  margin-left: 0;
 }
 
 /*bullets*/
 .bullets{
-  width: 850px;
+  width: 770px;
   height: 490px;
   float: left;
-  padding-left: 50px;
+  padding-left: 20px;
 }
 .bullets-header {
   text-align: center;
@@ -148,29 +153,30 @@ body {
   width: 850px;
   list-style-type: none;
 }
-
 .bullets-li {
   display: inline-block;
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
   color: #e0e0e0;
   border-right: 1px solid #e0e0e0;
-  width: 155px;
+  width: 160px;
   text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
 }
-/*.bullets-li img {
-  height: 270px;
+.bullets-li:last-child {
+  border-right: none;
 }
-*/
+.bullets figure {
+  margin-left: 0;
+}
 
 /*beatles*/
 .beatles {
   clear: both;
   padding-top: 120px;
-}
-/*applicability - create 1 class for these? */
-.beatles-margin {
-  margin: 0 auto;
+  margin-left: 100px;
 }
 .beatles-display {
   display: block;
@@ -179,28 +185,43 @@ body {
 .beatles-h1 {
   font-family: 'Oswald', sans-serif;
   color: white;
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: 500;
   background-color: #524741;
-  height: 100px;
   text-align: center;
+  margin-bottom: 0;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+.beatles-figure {
+  margin: 0;
 }
 .beatles-p {
   font-family: 'Merriweather', serif;
-  color: white;
+  font-size: 24px;
+  color: #ffffff;
   background-color: #524741;
   text-align: justify;
-  padding: 5px;
+  padding: 15px;
   width: 960px;
+  margin-top: 0;
+  box-sizing: border-box;
+  z-index: 800;
 }
-
+.photocred {
+  font-size: 16px;
+  opacity: 0.5;
+  padding-bottom: 10px;
+}
 /*immigration*/
 .immigration {
   width: 680px;
-  margin-left: 91px;
+  margin-left: 100px;
   float: left;
 }
 .immigration figure {
   margin: 0;
+  z-index: 700;
 }
 .immigration ul {
   list-style-type: none;
@@ -235,19 +256,24 @@ body {
 
 /*transformers*/
 .transformers {
-  width: 220px;
+  max-width: 220px;
+  height: 700px;
   margin: 20px;
   float: left;
-  margin-left: 20px;
-  background-color: #3a83bb;
   color: white;
-
 }
 .transformers figure {
   margin-left: 20px;
+  position: relative;
+  bottom: 90px;
+  z-index: 900;
 }
 .transformers article {
-  padding: 0 10px 10px 10px;
+  padding: 180px 10px 10px 10px;
+  background-color: #3a83bb;
+  bottom: 280px;
+  z-index: 850;
+  position: relative;
 }
 .transformers header {
   font-family: 'Oswald', sans-serif;
@@ -274,13 +300,16 @@ body {
   border-bottom: 5px solid #3476a8;
   padding: 10px 0;
   text-transform: uppercase;
+  width: 100%;
 }
 .rating h1 {
   display: inline;
 }
-.rating progress {
-  background-color: #619cc9;
-}
+/*progress[value] {
+/*  background-color: #619bc7;
+ background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}*/
 .gray {
   color: #75a8cf;
   margin: 0;
@@ -291,6 +320,7 @@ body {
   text-transform: uppercase;
   font-size: 30px;
   padding-top: 10px;
+  width: 100%;
 }
 .date h3 {
   margin: 0;
@@ -310,6 +340,7 @@ body {
 .overflow-title {
   font-size: 72px;
   font-family: 'Oswald', sans-serif;
+  font-weight: 300;
   transform: rotate(7deg);
   color: #a0b4c0;
   z-index: 1000;
@@ -328,6 +359,7 @@ body {
   font-family: 'Lora', serif;
   color: #5f6d75;
   width: 720px;
+
 }
 .p1 {
   transform: rotate(2deg);

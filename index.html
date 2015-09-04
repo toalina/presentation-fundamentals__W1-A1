@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Alina Sredna Week 1 Project</title>
-    <link href='https://fonts.googleapis.com/css?family=Oswald|Lato:400,100|Merriweather|Lora' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,300|Lato:400,100|Merriweather|Lora:400,700italic,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -49,7 +49,7 @@
         </header>
         <p class="afloat-p">Lobsterman John Aldridge fell into the shark-infested water of Long Island while his crewmates were asleep. He was kept afloat for more than 12 hours by his rubber boots, which he used as flotation devices. The coast guard rescued him 43 miles south of Montauk where he fell off his vessel.</p>
       </article>
-      <figure>
+      <figure class="bootpic">
         <img src="img/boot.png">
       </figure>
     </section>
@@ -84,15 +84,16 @@
     <section class="beatles">
       <article>
         <header>
-          <h1 class="beatles-margin beatles-display beatles-h1">Displaying (Famous) Blocks</h1>
+          <h1 class="beatles-display beatles-h1">Displaying (Famous) Blocks</h1>
         </header>
 
-        <figure class="beatles-margin">
+        <figure class="beatles-figure">
           <img src="img/beatles.png" class="beatles-margin beatles-display">
         </figure>
-        <p class="beatles-margin beatles-display beatles-p">Abbey Road is a thoroughfare located in the borough of Camden and the City of Westminster in London, running roughly northwest to southeast through St. John's Wood, near Lord's Cricket Ground. It is part of the B507. This road is best known for the Abbey Road Studios and the 1969 album, Abbey Road, by The Beatles.<br>
-        Photo: goo.gl/h44dc9
-        </p>
+        <section class="beatles-p">
+          <p>Abbey Road is a thoroughfare located in the borough of Camden and the City of Westminster in London, running roughly northwest to southeast through St. John's Wood, near Lord's Cricket Ground. It is part of the B507. This road is best known for the Abbey Road Studios and the 1969 album, Abbey Road, by The Beatles.</p>
+          <p class="photocred">Photo: goo.gl/h44dc9</p>
+        </section>
       </article>
     </section>
 
@@ -123,9 +124,11 @@
 
     <!-- transformers -->
     <section class="transformers">
+
       <figure>
-        <img src="img/transformers.png" alt=""> <!-- transformers dvd -->
+        <img src="img/transformers.png">
       </figure>
+
       <article>
         <header>
           <h1>Transformers</h1>
@@ -139,7 +142,8 @@
         <section class="rating">
           <h3 class="gray">Rotten Tomato</h3>
           <h1 class="gray">Rating</h1>
-          <h1 class="progress">20%</h1><progress min="0" max="100" value="20">20%</progress>
+          <h1 class="progress">20%</h1>
+          <progress min="0" max="100" value="20">20%</progress>
         </section>
 
         <!-- date -->
@@ -149,8 +153,8 @@
           <h3 class="gray">The Netherlands</h3>
           <time datetime="2011-06-23 pubdate">JUNE 23, 2011</time>
         </section>
-
       </article>
+
     </section>
 
     <!-- overflow -->
