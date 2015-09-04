@@ -1,0 +1,376 @@
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Lora', serif;
+light gray color: #D7D8C5;*/
+
+body {
+  padding: 0;
+  margin: 0;
+}
+/*top of page*/
+.cssoff {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 16em;
+  padding-top: 0;
+  padding-left: .5em;
+  color: #FFFFFF;
+  z-index: 200;
+  position: absolute;
+}
+.purple-rectangle {
+  background-color: #cdc9dd;
+  width: 570px;
+  height: 1000px;
+  position: absolute;
+  z-index: -1;
+}
+/*upper right volume #*/
+.volume {
+  font-family: 'Lora', sans-serif;
+  font-size: 1em;
+  position: absolute;
+  z-index: 1;
+  color: #C4CBB7;
+  top: 9em;
+  right: 13em;
+}
+
+/*barbie box model*/
+.barbie {
+  top: 33em;
+  position: absolute;
+  z-index: 250;
+  left: 3em;
+}
+.barbie-pic {
+  width: 350px;
+}
+.barbietext {
+  color: #6e6c77;
+  text-align: center;
+  width: 350px;
+  padding-left: 100px;
+}
+.barbietext p {
+  font-family: 'Lato', sans-serif;
+}
+.box-model-header {
+  font-family: 'Lora', serif;
+  font-size: 2em;
+}
+.box-model-header h3 {
+  margin-bottom: 0;
+}
+
+/*position relatives */
+.oldpic {
+  width: 800px;
+  left: 450px;
+  top: 150px;
+  position: relative;
+  z-index: 100;
+}
+.relatives {
+  z-index: 150;
+  width: 500px;
+  text-align: left;
+  left: 600px;
+  top: -50px;
+  position: relative;
+}
+.relatives h6 {
+  font-family: 'Lora', serif;
+  color:#fdcd84;
+  margin: 0;
+}
+.relatives h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+  color:#fdcd84;
+  margin: 0;
+}
+.relatives-p {
+  font-family: 'Lora', serif;
+  margin: 0;
+  font-size: 28px;
+}
+
+
+/*staying afloat */
+.afloat {
+  width: 130px;
+  height: 490px;
+  float: left;
+  padding-left: 50px;
+
+}
+.afloat-h1 {
+  font-family: 'Oswald', sans-serif;
+  color: green;
+  text-align: right;
+}
+.afloat-p {
+  text-align: right;
+  font-family: 'Lato', sans-serif;
+}
+.afloat img {
+  position: relative;
+}
+
+/*bullets*/
+.bullets{
+  width: 850px;
+  height: 490px;
+  float: left;
+  padding-left: 50px;
+}
+.bullets-header {
+  text-align: center;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+.bullets h4 {
+  font-family: 'Oswald', sans-serif;
+  color: #d4be9a;
+  display: inline;
+}
+.bullets h6 {
+  font-family: 'Lato', sans-serif;
+  color: #e2c570;
+  letter-spacing: 0.5px;
+  display: inline;
+}
+.bullets-ul{
+  width: 850px;
+  list-style-type: none;
+}
+
+.bullets-li {
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  color: #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+  width: 155px;
+  text-align: justify;
+}
+/*.bullets-li img {
+  height: 270px;
+}
+*/
+
+/*beatles*/
+.beatles {
+  clear: both;
+  padding-top: 120px;
+}
+/*applicability - create 1 class for these? */
+.beatles-margin {
+  margin: 0 auto;
+}
+.beatles-display {
+  display: block;
+  width: 960px;
+}
+.beatles-h1 {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 40px;
+  background-color: #524741;
+  height: 100px;
+  text-align: center;
+}
+.beatles-p {
+  font-family: 'Merriweather', serif;
+  color: white;
+  background-color: #524741;
+  text-align: justify;
+  padding: 5px;
+  width: 960px;
+}
+
+/*immigration*/
+.immigration {
+  width: 680px;
+  margin-left: 91px;
+  float: left;
+}
+.immigration figure {
+  margin: 0;
+}
+.immigration ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+.immigration li {
+  display: inline-block;
+  width: 160px;
+  padding-right: 5px;
+}
+.immigration h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 70px;
+  border-bottom: 10px solid black;
+  text-align: justify;
+  margin: 0;
+  text-transform: uppercase;
+}
+.immigration h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 26px;
+  border-bottom: 3px solid black;
+  margin: 0;
+  padding: 5px 0px;
+}
+.immigration p {
+  font-family: 'Lora', serif;
+  text-align: left;
+  font-size: 24px;
+}
+
+/*transformers*/
+.transformers {
+  width: 220px;
+  margin: 20px;
+  float: left;
+  margin-left: 20px;
+  background-color: #3a83bb;
+  color: white;
+
+}
+.transformers figure {
+  margin-left: 20px;
+}
+.transformers article {
+  padding: 0 10px 10px 10px;
+}
+.transformers header {
+  font-family: 'Oswald', sans-serif;
+  text-align: justify;
+  border-bottom: 10px solid #619bc7;
+  text-transform: uppercase;
+}
+.transformers h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  margin: 0;
+}
+.transformers h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+.transformers-p {
+  border-bottom: 2px dashed black;
+}
+.rating {
+  font-family: 'Oswald', sans-serif;
+  border-top: 5px solid #3476a8;
+  border-bottom: 5px solid #3476a8;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+.rating h1 {
+  display: inline;
+}
+.rating progress {
+  background-color: #619cc9;
+}
+.gray {
+  color: #75a8cf;
+  margin: 0;
+}
+.date {
+  border-top: 2px dashed black;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  padding-top: 10px;
+}
+.date h3 {
+  margin: 0;
+}
+.premiere {
+  font-size: 10px;
+}
+
+/*overflow*/
+.overflow {
+  clear: both;
+  margin: 0;
+}
+.overflow-article {
+/*  position: relative;
+*/}
+.overflow-title {
+  font-size: 72px;
+  font-family: 'Oswald', sans-serif;
+  transform: rotate(7deg);
+  color: #a0b4c0;
+  z-index: 1000;
+  margin: 0;
+  padding-left: 100px;
+  padding-top: 1px;
+  position: relative;
+  opacity: 0.6;
+}
+.water-pic {
+  z-index: 800;
+  margin-top: 0;
+  position: absolute;
+}
+.p1, .p2, .p3 {
+  font-family: 'Lora', serif;
+  color: #5f6d75;
+  width: 720px;
+}
+.p1 {
+  transform: rotate(2deg);
+  text-align: right;
+  position: relative;
+  z-index: 900;
+  padding-left: 300px;
+  bottom: 80px;
+}
+.p2 {
+  transform: rotate(-1deg);
+  position: relative;
+  bottom: 75px;
+  padding-left: 50px;
+}
+.p3 {
+  transform: rotate(2deg);
+  position: relative;
+  bottom: 50px;
+  padding-left: 200px;
+}
+/*footer */
+footer {
+  margin: 0 50px;
+  border-top: 1px solid #b1b1b1;
+}
+.left {
+  float: left;
+  font-family: 'Lato', sans-serif;
+  color: #b1b1b1;
+}
+.right {
+  float: right;
+  text-align: right;
+  font-family: 'Merriweather', serif;
+  color: #b1b1b1;
+}
+/*form?*/
+.form {
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 50px;
+  font-family: 'Merriweather', serif;
+}
+
+
